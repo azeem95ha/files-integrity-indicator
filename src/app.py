@@ -42,7 +42,7 @@ def compare_files():
     return jsonify({
         "hash1": hash1,
         "hash2": hash2,
-        "are_identical": comparison_result
+        "comparison_result": comparison_result
     })
 
 if __name__ == "__main__":
