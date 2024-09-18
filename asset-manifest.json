@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/files-integrity-indicator/static/css/main.5cad4271.css",
+    "main.js": "/files-integrity-indicator/static/js/main.874173e3.js",
+    "static/js/453.d0e12441.chunk.js": "/files-integrity-indicator/static/js/453.d0e12441.chunk.js",
+    "index.html": "/files-integrity-indicator/index.html",
+    "main.5cad4271.css.map": "/files-integrity-indicator/static/css/main.5cad4271.css.map",
+    "main.874173e3.js.map": "/files-integrity-indicator/static/js/main.874173e3.js.map",
+    "453.d0e12441.chunk.js.map": "/files-integrity-indicator/static/js/453.d0e12441.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5cad4271.css",
+    "static/js/main.874173e3.js"
+  ]
+}
