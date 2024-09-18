@@ -45,11 +45,11 @@ function App() {
       <h1>File Comparator</h1>
       <form onSubmit={handleSubmit}>
         <div>
-          <label>Select First File:</label>
+          <label>Select Source File:</label>
           <input type="file" onChange={handleFile1Change} />
         </div>
         <div>
-          <label>Select Second File:</label>
+          <label>Select Destination File:</label>
           <input type="file" onChange={handleFile2Change} />
         </div>
         <div>
@@ -66,11 +66,12 @@ function App() {
       {comparisonResult && (
         <div>
           <h3>Comparison Result:</h3>
+          <p>
+            <strong>{comparisonResult.comparison_result}</strong> 
+          </p>
           <p><strong>File 1 Hash:</strong> {comparisonResult.hash1}</p>
           <p><strong>File 2 Hash:</strong> {comparisonResult.hash2}</p>
-          <p>
-            <strong>Are files identical?</strong> {comparisonResult.are_identical ? "Yes" : "No"}
-          </p>
+          
         </div>
       )}
     </div>

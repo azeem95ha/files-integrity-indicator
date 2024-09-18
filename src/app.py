@@ -34,11 +34,15 @@ def compare_files():
 
     # Compare the two hash codes
     are_identical = hash1 == hash2
-
+    comparison_result = ""
+    if are_identical:
+        comparison_result = "The files are identical"
+    else:
+        comparison_result = "The destination file is changed / modified"
     return jsonify({
         "hash1": hash1,
         "hash2": hash2,
-        "are_identical": are_identical
+        "are_identical": comparison_result
     })
 
 if __name__ == "__main__":
